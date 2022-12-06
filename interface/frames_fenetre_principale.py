@@ -113,5 +113,8 @@ class FrameTempsAttente(Frame):
     def __init__(self, master):
         super().__init__(master)
         #### DÉBUT DÉFI TEMPS ATTENTE ####
-
+        self.slider = Scale(master, orient=VERTICAL, from_=500, to=10)
+        self.slider.grid(row=2, column=2)
+        nouvelle_fonction = self.slider.get()
+        self.master.gestionnaire_io.temps_attente = nouvelle_fonction
         #### FIN DÉFI TEMPS ATTENTE ####
