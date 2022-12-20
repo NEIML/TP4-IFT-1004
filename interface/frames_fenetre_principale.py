@@ -102,7 +102,7 @@ class FrameTableauJoueurs(Frame):
 
         #### DÉBUT DÉFI TABLEAU DES JOUEURS ####
         # Une partie du code pour ce défi se trouve dans le constructeur,
-        # le reste dans la méthode mise_a_jour
+        # le reste dans la méthode mise_a_jourr
 
     def mise_a_jour(self):
         # Remplacez le pass par votre code.

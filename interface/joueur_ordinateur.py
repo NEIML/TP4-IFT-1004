@@ -34,6 +34,6 @@ class JoueurOrdinateur(Joueur):  # N'oubliez pas d'hériter de Joueur !!
 
 
 
-    # Écrivez les 4 méthodes demandées.....
+    # Écrivez les 4 méthodes demandées......
 
 #### FIN DÉFI JOUEUR ORDINATEUR ####  NESRINEn
