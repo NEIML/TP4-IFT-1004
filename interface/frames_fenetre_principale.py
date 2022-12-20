@@ -7,6 +7,7 @@ from tkinter import Frame, Label, Button, Scale, VERTICAL, IntVar
 from interface.joueur_ordinateur import JoueurOrdinateur
 
 
+
 class FrameDescription(Frame):
     def __init__(self, master):
         """
